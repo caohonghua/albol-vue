@@ -181,6 +181,7 @@ export default {
   },
   methods: {
     formReset() {
+      this.articleForm.id = "";
       this.articleForm.name = "";
       this.articleForm.category = "";
       this.articleForm.content = "";
